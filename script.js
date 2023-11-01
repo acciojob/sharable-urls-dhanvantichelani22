@@ -1,5 +1,5 @@
 // your code here
-document.getElementById('button').addEventListener(e => {
+document.getElementById('button').addEventListener( "click",e => {
     e.preventDefault();
             var name = document.getElementById("name").value;
 	 
